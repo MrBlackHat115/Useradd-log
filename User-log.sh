@@ -4,7 +4,7 @@
 
 LOGFILE="/var/log/user_creation.log" # Path to the log file where all user creation events will be stored
 REAL_USERADD="/usr/sbin/useradd.real" # Path to the real 'useradd' binary (used because this script replaces 'useradd')
-ADMIN_USER="mrblackhat"  # Change to your username or email 
+ADMIN_USER="username"  # Change to your username or email 
 # Username of the admin to notify; can be replaced with an email address
 
 # If the real binary isn't renamed yet, point to default
