@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
 # useradd-log: Logs user creation and notifies admin
+# Usage: sudo useradd-log <username>
 
 LOGFILE="/var/log/user_creation.log" # Path to the log file where all user creation events will be stored
 REAL_USERADD="/usr/sbin/useradd.real" # Path to the real 'useradd' binary (used because this script replaces 'useradd')
